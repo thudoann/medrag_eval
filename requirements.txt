@@ -1,0 +1,15 @@
+# Core (the pure-Python pieces need only numpy)
+numpy>=1.24
+
+# Retrieval embeddings (local, free, downloads a ~90MB model on first use)
+sentence-transformers>=2.2
+
+# LLM providers -- install only the one you use
+anthropic>=0.39      # for LLM_PROVIDER=anthropic
+# openai>=1.0        # for LLM_PROVIDER=openai or EMBED_PROVIDER=openai
+
+# Ingestion
+requests>=2.31
+
+# Dev
+pytest>=7.4

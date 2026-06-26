@@ -1,0 +1,14 @@
+{
+  "documents": [
+    {"doc_id": "D1", "text": "Metformin is a first-line oral medication for type 2 diabetes. It works by reducing hepatic glucose production and improving insulin sensitivity. Common side effects include gastrointestinal upset. It is generally weight-neutral."},
+    {"doc_id": "D2", "text": "Statins lower LDL cholesterol by inhibiting HMG-CoA reductase. They reduce the risk of cardiovascular events in high-risk patients. Muscle pain is a known but uncommon adverse effect."},
+    {"doc_id": "D3", "text": "Type 2 diabetes is characterized by insulin resistance and relative insulin deficiency. Lifestyle modification, including diet and exercise, is a cornerstone of management. Untreated hyperglycemia can lead to microvascular complications."},
+    {"doc_id": "D4", "text": "Aspirin is an antiplatelet agent used in secondary prevention of myocardial infarction. It irreversibly inhibits cyclooxygenase. Bleeding risk must be weighed against cardiovascular benefit."}
+  ],
+  "questions": [
+    {"question": "What is the first-line medication for type 2 diabetes?", "relevant_doc_ids": ["D1"], "ideal_answer": "Metformin is the first-line oral medication for type 2 diabetes [1]."},
+    {"question": "How do statins lower cholesterol?", "relevant_doc_ids": ["D2"], "ideal_answer": "Statins inhibit HMG-CoA reductase, which lowers LDL cholesterol [1]."},
+    {"question": "What lifestyle changes help manage type 2 diabetes?", "relevant_doc_ids": ["D3"], "ideal_answer": "Diet and exercise are cornerstones of managing type 2 diabetes [1]."},
+    {"question": "Why is aspirin used after a heart attack?", "relevant_doc_ids": ["D4"], "ideal_answer": "Aspirin is an antiplatelet agent used in secondary prevention of myocardial infarction [1]."}
+  ]
+}
