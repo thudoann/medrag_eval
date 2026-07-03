@@ -1,5 +1,7 @@
 # MedRAG-Eval
 
+[![Live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medrag-eval-by-thudoann.streamlit.app)
+
 A retrieval-augmented generation (RAG) system over biomedical literature, built
 with a focus on evaluation and guardrails rather than just a chat demo.
 
